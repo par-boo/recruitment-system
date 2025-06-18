@@ -1,0 +1,8 @@
+custom_login.custom_login:
+  path: '/custom-login'
+  defaults:
+    _controller: '\Drupal\custom_login\Controller\CustomLoginController::customLoginPage'
+    _title: 'Login'
+  requirements:
+    _custom_access: '\Drupal\custom_login\Controller\CustomLoginController::access'
+

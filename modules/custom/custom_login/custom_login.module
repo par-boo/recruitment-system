@@ -1,0 +1,16 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function custom_login_theme() {
+  return [
+    'custom_login_page' => [
+      'variables' => [
+        'login_form' => NULL,
+        'page_title' => NULL,
+        'description' => NULL,
+      ],
+      'template' => 'custom-login-page',
+    ],
+  ];
+}

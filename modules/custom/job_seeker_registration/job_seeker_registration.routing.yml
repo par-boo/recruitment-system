@@ -1,0 +1,7 @@
+job_seeker_registration.form:
+  path: '/register/sign-up'
+  defaults:
+    _form: '\Drupal\job_seeker_registration\Form\JobSeekerRegistrationForm'
+    _title: 'Job Seeker Registration'
+  requirements:
+    _custom_access: '\Drupal\job_seeker_registration\Controller\JobSeekerController::access'

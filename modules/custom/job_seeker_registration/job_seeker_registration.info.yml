@@ -1,0 +1,7 @@
+name: 'Job Seeker Registration'
+type: module
+description: 'Custom registration form for Job Seekers.'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - user

@@ -1,0 +1,12 @@
+name: Rules test default component
+type: module
+description: 'Support module for testing Rules config defaults.'
+package: Testing
+dependencies:
+  - rules:rules
+  - rules:rules_test
+
+# Information added by Drupal.org packaging script on 2025-01-24
+version: '4.0.0+32-dev'
+project: 'rules'
+datestamp: 1737757479

@@ -1,0 +1,9 @@
+name: 'Custom Login'
+type: module
+description: 'Provides a custom login form using Drupal Form API.'
+core_version_requirement: ^10
+package: Custom
+
+dependencies:
+  - drupal:user
+  - drupal:system

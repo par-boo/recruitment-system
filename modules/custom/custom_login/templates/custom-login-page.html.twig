@@ -1,0 +1,31 @@
+{#
+/**
+ * @file
+ * Template for custom login page.
+ *
+ * Available variables:
+ * - login_form: The rendered login form.
+ * - page_title: The page title.
+ * - description: Description text.
+ */
+#}
+
+<div class="custom-login-page">
+  <div class="login-container">
+
+    {% if description %}
+      <div class="login-description">
+        <p>{{ description }}</p>
+      </div>
+    {% endif %}
+
+    <div class="login-form-wrapper">
+      {{ login_form }}
+    </div>
+
+    <div class="register-link">
+        <p>Don't have an account? <a href="register/sign-up">Register here</a></p>
+    </div>
+
+  </div>
+</div>

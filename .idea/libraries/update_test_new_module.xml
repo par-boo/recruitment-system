@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="update_test_new_module">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/core/modules/update/tests/update_test_new_module/8.x-1.1/update_test_new_module.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
